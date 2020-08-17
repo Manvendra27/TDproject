@@ -1,0 +1,46 @@
+{
+	"users": [
+		{
+			"name": "manu",
+			"email": "manven2712@gmail.com",
+			"Mno": "78945130",
+			"password": "manu",
+			"cnfpass": "manu"
+		},
+		{
+			"name": "kuki",
+			"email": "pranjali.kuki169@gmail.com",
+			"Mno": "56252458",
+			"password": "123",
+			"cnfpass": "123"
+		},
+		{
+			"name": "Meena Choudhary",
+			"email": "manvendra.manu27@gmail.com",
+			"Mno": "9530382860",
+			"password": "456",
+			"cnfpass": "456"
+		},
+		{
+			"name": "sid",
+			"email": "sid@s",
+			"Mno": "789456123",
+			"password": "maa",
+			"cnfpass": "maa"
+		},
+		{
+			"name": "ajeet",
+			"email": "ajjet@q",
+			"Mno": "78458548",
+			"password": "123",
+			"cnfpass": "123"
+		},
+		{
+			"name": "lol",
+			"email": "lol@lol",
+			"Mno": "1234",
+			"password": "lol",
+			"cnfpass": "lol"
+		}
+	]
+}

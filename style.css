@@ -1,0 +1,53 @@
+body {
+    background-color: #48AAAD;
+}
+.container {
+    margin-top: 4rem;
+}
+.login-card {
+    height: 27rem;
+    width: 25rem;
+    margin: auto;
+    display: block;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.login-btn {
+    background-color:goldenrod;
+    color: black;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 7rem;
+}
+
+.register-card {
+    height: 38rem;
+    width: 45rem;
+    margin: auto;
+    display: block;
+}
+
+.index-card {
+    height: 25rem;
+    width: 25rem;
+    margin: auto;
+    display: block;
+}
+.welcome-text {
+    text-align: center;
+}
+
+.register-btn {
+    background-color:goldenrod;
+    color: black;
+    text-align: center;
+    width: 7rem;
+    margin: auto;
+    display: block;
+}

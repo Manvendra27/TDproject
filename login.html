@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+
+
+    <div class="container">
+
+        <div class="card login-card">
+            <div class="card-body">
+              <h5 class="card-title">Login</h5>
+              <br>
+              <form action="/login" method="POST">
+                <div class="form-group" >
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input  type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input  type="password" name="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <br>
+                <button type="submit" method="POST" class="btn btn-primary login-btn">Submit</button>
+                <br>
+                
+              </form>
+
+              <small id="emailHelp" class="form-text text-muted">New User? Register here</small>
+                <a href="/register.html"><button type="submit"  method="POST" class="btn btn-primary register-btn">Register</button></a>
+              
+            </div>
+          </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

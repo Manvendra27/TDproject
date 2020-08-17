@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+
+
+    <div class="container">
+
+        <div class="card register-card">
+            <div class="card-body">
+              <h5 class="card-title">Sign-Up</h5>
+              <br>
+              <form action="/register" method="POST">
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input  type="text" name="name" class="form-control" id="Name" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input  type="email" name="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                    
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Mobile number</label>
+                    <input  type="number" name="Mno" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input  type="password" name="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Confirm Password</label>
+                    <input  type="password" name="cnfpass" class="form-control" id="exampleInputPassword1">
+                  </div>
+                <br>
+                <button type="submit" method="POST" class="btn btn-primary login-btn">Submit</button>
+              </form>
+              
+            </div>
+          </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
