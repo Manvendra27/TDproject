@@ -41,6 +41,55 @@
 			"Mno": "1234",
 			"password": "lol",
 			"cnfpass": "lol"
+		},
+		{
+			"name": "check",
+			"email": "check@c",
+			"Mno": "789456123",
+			"password": "asd",
+			"cnfpass": "asd"
+		},
+		{
+			"name": "check",
+			"email": "check@c",
+			"Mno": "789456123",
+			"password": "asd",
+			"cnfpass": "asd"
+		},
+		{
+			"name": "hash",
+			"email": "hash@hash",
+			"Mno": "12346789",
+			"password": "abc",
+			"cnfpass": "abc"
+		},
+		{
+			"name": "pass",
+			"email": "hash@hash",
+			"Mno": "12346789",
+			"password": "asd",
+			"cnfpass": "asd"
+		},
+		{
+			"name": "maa",
+			"email": "maa@m",
+			"Mno": "12346789",
+			"password": "$2a$10$72GKORygl/5udEbryqDakO7AsDrhYSOZbyB/OGCKRWTjJFWVWn7zG",
+			"cnfpass": "zxc"
+		},
+		{
+			"name": "maa",
+			"email": "maa@mm",
+			"Mno": "12346789",
+			"password": "$2a$10$HGvuT86wDZHgsttORng3p.abtFE.rBv9Z4hqKWY844iAti/Rcuj82",
+			"cnfpass": "$2a$10$HGvuT86wDZHgsttORng3p.abtFE.rBv9Z4hqKWY844iAti/Rcuj82"
+		},
+		{
+			"name": "TD",
+			"email": "td@td",
+			"Mno": "123456789",
+			"password": "$2a$10$2XvaPsFYpLsI8bNC6mVxiuaoskhTOwRXTt8uXzqxRQKoyAJ4KyLc2",
+			"cnfpass": "$2a$10$2XvaPsFYpLsI8bNC6mVxiuaoskhTOwRXTt8uXzqxRQKoyAJ4KyLc2"
 		}
 	]
 }
