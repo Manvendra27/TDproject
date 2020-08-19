@@ -6,6 +6,20 @@
 			"Mno": "9784561231",
 			"password": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS",
 			"cnfpass": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS"
+		},
+		{
+			"name": "hash",
+			"email": "hash@hash",
+			"Mno": "67986432984",
+			"password": "hash",
+			"cnfpass": "hash"
+		},
+		{
+			"name": "hash",
+			"email": "hash1@hash",
+			"Mno": "67986432984",
+			"password": "$2a$10$HKmd09yPAQJnmRxZ.5bUwu/1JK7/9ZXjoM7vDh0G2iUYBwRVfMkdO",
+			"cnfpass": "hash"
 		}
 	]
 }

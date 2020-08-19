@@ -43,20 +43,32 @@ app.post("/register", (req,res) => {
     })
 
             
-            var salt = bcrypt.genSaltSync(10);
-            var hash = bcrypt.hashSync(password, salt);
-            user.password= hash;
-            user.cnfpass=hash;
+            // var salt = bcrypt.genSaltSync(10);
+            // var hash = bcrypt.hashSync(password, salt);
+            // user.password= hash;
+            // user.cnfpass=hash;
 
-             db.users.push(user);
 
-            fs.writeFile(filename,JSON.stringify(db,null,'\t'),(err) => {
-             if(err) console.log(err);
-             res.send('User added!');
+            bcrypt.genSalt(10, (err, salt) => {
+                bcrypt.hash(password, salt, (err, hash) => {
+                    // Now we can store the password hash in db.
 
+                    db.users.push(user);
+
+                    user.password = hash;
+                    user.cnfpass = hash;
+
+                    fs.writeFile(filename,JSON.stringify(db,null,'\t'),(err) => {
+                     if(err) console.log(err);
+                     res.send('User added!');
+        
+        
+                    
+            })
+                });
+            });
 
             
-    })
     })
     
     // route for login
