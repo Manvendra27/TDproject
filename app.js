@@ -29,7 +29,7 @@ app.post("/register", (req,res) => {
     let data = fs.readFileSync(filename);
     let db = JSON.parse(data);
     let email = req.body.email;
-    password = req.body.email;
+    let password = req.body.password;
 
     db.users.forEach(user => {
         if(user.email === email) {
@@ -53,10 +53,12 @@ app.post("/register", (req,res) => {
                 bcrypt.hash(password, salt, (err, hash) => {
                     // Now we can store the password hash in db.
 
-                    db.users.push(user);
+                    
 
                     user.password = hash;
                     user.cnfpass = hash;
+
+                    db.users.push(user);
 
                     fs.writeFile(filename,JSON.stringify(db,null,'\t'),(err) => {
                      if(err) console.log(err);
@@ -78,19 +80,30 @@ app.post("/register", (req,res) => {
         
         let data = fs.readFileSync(filename);
         let db = JSON.parse(data);
-        let password= req.body.password;
-        let email= req.body.email;
+        let password = req.body.password;
+        let hash = user.password;
+        user = req.body;
+        
         
 
         db.users.forEach(user => {
-            
-            let hash = user.password;
-            bcrypt.compareSync(password, hash); 
-            res.send("logged in successfully");
+            if (user.email === req.body.email){
+                
+                bcrypt.compare(password, hash, function(err, res) {
+                    if (err) throw err;
+
+                    res.send("logged in");
+                });
+                
+            }
             
         })
+        
+        res.send("wrong credentials")
+        
 
-        res.send("wrong credentials");
+        
+        
 
 
     })

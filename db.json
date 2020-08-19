@@ -20,6 +20,20 @@
 			"Mno": "67986432984",
 			"password": "$2a$10$HKmd09yPAQJnmRxZ.5bUwu/1JK7/9ZXjoM7vDh0G2iUYBwRVfMkdO",
 			"cnfpass": "hash"
+		},
+		{
+			"name": "hash2",
+			"email": "hash2@hash",
+			"Mno": "12348298",
+			"password": "$2a$10$/yI.K597dmo1V.vzRaZBBOEguaHXsu5GsjlSzijNzbq9ZZTMAlCGa",
+			"cnfpass": "$2a$10$/yI.K597dmo1V.vzRaZBBOEguaHXsu5GsjlSzijNzbq9ZZTMAlCGa"
+		},
+		{
+			"name": "aayush",
+			"email": "aayush@a",
+			"Mno": "54685432469",
+			"password": "$2a$10$x1orZ7LbYUH26I.VkOPH2uAPLP7uRbuDvRB8c90QltET3qvsPrv8W",
+			"cnfpass": "$2a$10$x1orZ7LbYUH26I.VkOPH2uAPLP7uRbuDvRB8c90QltET3qvsPrv8W"
 		}
 	]
 }
