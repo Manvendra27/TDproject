@@ -13,12 +13,12 @@ app.use(express.static("."));
 
 app.get("/login", (req,res) => {
     
-    res.sendFile(path.join(__dirname + '/login.html'))
+    res.sendFile(__dirname + '/login.html')
 });
 
 app.get("/register", (req,res) => {
     
-    res.sendFile(path.join(__dirname + '/register.html'))
+    res.sendFile(__dirname + '/register.html')
 });
 
 //route for registration
@@ -71,13 +71,11 @@ app.post("/register", (req,res) => {
         
 
         db.users.forEach(user => {
-            // if ( user.email === email && user.password === password ) {
-            //     // res.sendFile(path.join(__dirname + '/index.html'));
-            //     res.send("Successful login");
-            // }
+            
             let hash = user.password;
-            bcrypt.compareSync(password, hash); // true
-            res.send("logged in successfulyy");
+            bcrypt.compareSync(password, hash); 
+            res.send("logged in successfully");
+            
         })
 
         res.send("wrong credentials");
