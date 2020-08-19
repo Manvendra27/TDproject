@@ -1,39 +1,11 @@
 {
 	"users": [
 		{
-			"name": "Manvendra",
-			"email": "manven2712@gmail.com",
-			"Mno": "9784561231",
-			"password": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS",
-			"cnfpass": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS"
-		},
-		{
-			"name": "hash",
-			"email": "hash@hash",
-			"Mno": "67986432984",
-			"password": "hash",
-			"cnfpass": "hash"
-		},
-		{
-			"name": "hash",
-			"email": "hash1@hash",
-			"Mno": "67986432984",
-			"password": "$2a$10$HKmd09yPAQJnmRxZ.5bUwu/1JK7/9ZXjoM7vDh0G2iUYBwRVfMkdO",
-			"cnfpass": "hash"
-		},
-		{
-			"name": "hash2",
-			"email": "hash2@hash",
-			"Mno": "12348298",
-			"password": "$2a$10$/yI.K597dmo1V.vzRaZBBOEguaHXsu5GsjlSzijNzbq9ZZTMAlCGa",
-			"cnfpass": "$2a$10$/yI.K597dmo1V.vzRaZBBOEguaHXsu5GsjlSzijNzbq9ZZTMAlCGa"
-		},
-		{
-			"name": "aayush",
-			"email": "aayush@a",
-			"Mno": "54685432469",
-			"password": "$2a$10$x1orZ7LbYUH26I.VkOPH2uAPLP7uRbuDvRB8c90QltET3qvsPrv8W",
-			"cnfpass": "$2a$10$x1orZ7LbYUH26I.VkOPH2uAPLP7uRbuDvRB8c90QltET3qvsPrv8W"
+			"name": "manu",
+			"email": "manu@as",
+			"Mno": "12345689",
+			"password": "$2a$10$eJHjRbG5f7F37BihkK.Rxet7ng7yxbxu7hNoR58EwpjQQIi0eUGle",
+			"cnfpass": "$2a$10$eJHjRbG5f7F37BihkK.Rxet7ng7yxbxu7hNoR58EwpjQQIi0eUGle"
 		}
 	]
 }

@@ -29,7 +29,7 @@ app.post("/register", (req,res) => {
     let data = fs.readFileSync(filename);
     let db = JSON.parse(data);
     let email = req.body.email;
-    let password = req.body.password;
+    
 
     db.users.forEach(user => {
         if(user.email === email) {
@@ -42,16 +42,10 @@ app.post("/register", (req,res) => {
         }
     })
 
-            
-            // var salt = bcrypt.genSaltSync(10);
-            // var hash = bcrypt.hashSync(password, salt);
-            // user.password= hash;
-            // user.cnfpass=hash;
-
 
             bcrypt.genSalt(10, (err, salt) => {
-                bcrypt.hash(password, salt, (err, hash) => {
-                    // Now we can store the password hash in db.
+                bcrypt.hash(user.password, salt, (err, hash) => {
+                    
 
                     
 
@@ -77,29 +71,34 @@ app.post("/register", (req,res) => {
 
     app.post("/login", (req , res)=> {
 
-        
+        let user = req.body;
         let data = fs.readFileSync(filename);
         let db = JSON.parse(data);
-        let password = req.body.password;
-        let hash = user.password;
-        user = req.body;
+        let pass = req.body.password;
+        
+        
         
         
 
         db.users.forEach(user => {
             if (user.email === req.body.email){
                 
-                bcrypt.compare(password, hash, function(err, res) {
-                    if (err) throw err;
-
-                    res.send("logged in");
-                });
+                bcrypt.compare(pass,user.password, function(err, results){
+                    if(err){
+                        throw new Error(err)
+                     }
+                     if (results) {
+                        return res.status(200).json({ msg: "Login success" })
+                    } else {
+                        return res.status(401).json({ msg: "Invalid credencial" })
+                    }
+                   })
                 
             }
             
         })
         
-        res.send("wrong credentials")
+        
         
 
         
