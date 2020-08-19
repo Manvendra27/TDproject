@@ -1,95 +1,11 @@
 {
 	"users": [
 		{
-			"name": "manu",
+			"name": "Manvendra",
 			"email": "manven2712@gmail.com",
-			"Mno": "78945130",
-			"password": "manu",
-			"cnfpass": "manu"
-		},
-		{
-			"name": "kuki",
-			"email": "pranjali.kuki169@gmail.com",
-			"Mno": "56252458",
-			"password": "123",
-			"cnfpass": "123"
-		},
-		{
-			"name": "Meena Choudhary",
-			"email": "manvendra.manu27@gmail.com",
-			"Mno": "9530382860",
-			"password": "456",
-			"cnfpass": "456"
-		},
-		{
-			"name": "sid",
-			"email": "sid@s",
-			"Mno": "789456123",
-			"password": "maa",
-			"cnfpass": "maa"
-		},
-		{
-			"name": "ajeet",
-			"email": "ajjet@q",
-			"Mno": "78458548",
-			"password": "123",
-			"cnfpass": "123"
-		},
-		{
-			"name": "lol",
-			"email": "lol@lol",
-			"Mno": "1234",
-			"password": "lol",
-			"cnfpass": "lol"
-		},
-		{
-			"name": "check",
-			"email": "check@c",
-			"Mno": "789456123",
-			"password": "asd",
-			"cnfpass": "asd"
-		},
-		{
-			"name": "check",
-			"email": "check@c",
-			"Mno": "789456123",
-			"password": "asd",
-			"cnfpass": "asd"
-		},
-		{
-			"name": "hash",
-			"email": "hash@hash",
-			"Mno": "12346789",
-			"password": "abc",
-			"cnfpass": "abc"
-		},
-		{
-			"name": "pass",
-			"email": "hash@hash",
-			"Mno": "12346789",
-			"password": "asd",
-			"cnfpass": "asd"
-		},
-		{
-			"name": "maa",
-			"email": "maa@m",
-			"Mno": "12346789",
-			"password": "$2a$10$72GKORygl/5udEbryqDakO7AsDrhYSOZbyB/OGCKRWTjJFWVWn7zG",
-			"cnfpass": "zxc"
-		},
-		{
-			"name": "maa",
-			"email": "maa@mm",
-			"Mno": "12346789",
-			"password": "$2a$10$HGvuT86wDZHgsttORng3p.abtFE.rBv9Z4hqKWY844iAti/Rcuj82",
-			"cnfpass": "$2a$10$HGvuT86wDZHgsttORng3p.abtFE.rBv9Z4hqKWY844iAti/Rcuj82"
-		},
-		{
-			"name": "TD",
-			"email": "td@td",
-			"Mno": "123456789",
-			"password": "$2a$10$2XvaPsFYpLsI8bNC6mVxiuaoskhTOwRXTt8uXzqxRQKoyAJ4KyLc2",
-			"cnfpass": "$2a$10$2XvaPsFYpLsI8bNC6mVxiuaoskhTOwRXTt8uXzqxRQKoyAJ4KyLc2"
+			"Mno": "9784561231",
+			"password": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS",
+			"cnfpass": "$2a$10$4gSn5axKAq3zaZp9bIUz7uQsjAW54dSJLX.Dn4jw7QgNdXAME2UuS"
 		}
 	]
 }
